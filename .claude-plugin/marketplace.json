@@ -1,0 +1,13 @@
+{
+  "name": "claude-shield",
+  "owner": {
+    "name": "psanchezp2"
+  },
+  "plugins": [
+    {
+      "name": "claude-shield",
+      "source": "./",
+      "description": "Local DLP firewall for Claude Code: blocks credential exfiltration, destructive commands, and hardcoded secrets in real time. 100% local, zero telemetry."
+    }
+  ]
+}

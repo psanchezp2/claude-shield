@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+*.log
+.DS_Store
+
+# Local-only: project guidance and private business strategy (not public)
+CLAUDE.md
+docs/PITCH.md
+docs/LAUNCH-PLAYBOOK.md

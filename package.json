@@ -1,0 +1,46 @@
+{
+  "name": "claude-shield",
+  "version": "0.1.0",
+  "description": "Local DLP firewall for Claude Code: blocks credential exfiltration, destructive commands, and hardcoded secrets before they happen. Zero config, zero telemetry, runs 100% on your machine.",
+  "type": "module",
+  "license": "MIT",
+  "author": "psanchezp2",
+  "homepage": "https://github.com/psanchezp2/claude-shield#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psanchezp2/claude-shield.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psanchezp2/claude-shield/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "security",
+    "dlp",
+    "hooks",
+    "secrets",
+    "firewall",
+    "ai-agents"
+  ],
+  "bin": {
+    "claude-shield": "./bin/cli.js"
+  },
+  "files": [
+    "src/",
+    "hooks/",
+    "bin/",
+    ".claude-plugin/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.6"
+  }
+}

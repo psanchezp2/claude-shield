@@ -1,0 +1,12 @@
+{
+  "name": "claude-shield",
+  "version": "0.1.0",
+  "description": "Local DLP firewall for Claude Code: blocks credential exfiltration, destructive commands, and hardcoded secrets in real time. 100% local, zero telemetry.",
+  "author": {
+    "name": "psanchezp2"
+  },
+  "homepage": "https://github.com/psanchezp2/claude-shield",
+  "license": "MIT",
+  "keywords": ["security", "dlp", "secrets", "firewall", "hooks"],
+  "hooks": "./hooks/hooks.json"
+}
